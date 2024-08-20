@@ -32,23 +32,24 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: black;
-            color: white;
+            background-color: black; /* Hintergrundfarbe schwarz */
+            color: white; /* Schriftfarbe weiß */
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
             text-align: center;
         }
 
         .dropdown-content a {
-            color: black;
+            color: white; /* Link-Schriftfarbe weiß */
             padding: 12px 16px;
             text-decoration: none;
             display: block;
+            font-size: 18px; /* Schriftgröße der Links erhöht */
         }
 
         .dropdown-content a:hover {
-            background-color: #ddd;
+            background-color: #555; /* Hover-Hintergrundfarbe grau */
         }
 
         .dropdown:hover .dropdown-content {
@@ -56,14 +57,14 @@
         }
 
         .dropdown:hover .dropbtn {
-            background-color: #555;
+            background-color: #333; /* Hover-Hintergrundfarbe der Schaltfläche dunkelgrau */
         }
 
         .dropbtn {
             background-color: black;
             color: white;
             padding: 16px;
-            font-size: 16px;
+            font-size: 18px; /* Schriftgröße der Schaltfläche erhöht */
             border: none;
             cursor: pointer;
         }
